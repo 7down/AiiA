@@ -1,0 +1,66 @@
+### Random Forest ###
+              precision    recall  f1-score   support
+
+           0       1.00      0.09      0.16       104
+           1       0.79      1.00      0.88       347
+
+    accuracy                           0.79       451
+   macro avg       0.89      0.54      0.52       451
+weighted avg       0.83      0.79      0.71       451
+
+
+### XGBoost ###
+              precision    recall  f1-score   support
+
+           0       0.78      0.38      0.52       104
+           1       0.84      0.97      0.90       347
+
+    accuracy                           0.83       451
+   macro avg       0.81      0.68      0.71       451
+weighted avg       0.83      0.83      0.81       451
+
+
+### LightGBM ###
+              precision    recall  f1-score   support
+
+           0       0.85      0.39      0.54       104
+           1       0.84      0.98      0.91       347
+
+    accuracy                           0.84       451
+   macro avg       0.85      0.69      0.72       451
+weighted avg       0.85      0.84      0.82       451
+
+
+### SVM ###
+              precision    recall  f1-score   support
+
+           0       0.80      0.34      0.47       104
+           1       0.83      0.97      0.90       347
+
+    accuracy                           0.83       451
+   macro avg       0.81      0.66      0.68       451
+weighted avg       0.82      0.83      0.80       451
+
+
+### Logistic Regression ###
+              precision    recall  f1-score   support
+
+           0       0.90      0.17      0.29       104
+           1       0.80      0.99      0.89       347
+
+    accuracy                           0.80       451
+   macro avg       0.85      0.58      0.59       451
+weighted avg       0.82      0.80      0.75       451
+
+
+### MLPClassifier ###
+              precision    recall  f1-score   support
+
+           0       0.66      0.54      0.59       104
+           1       0.87      0.92      0.89       347
+
+    accuracy                           0.83       451
+   macro avg       0.76      0.73      0.74       451
+weighted avg       0.82      0.83      0.82       451
+
+
